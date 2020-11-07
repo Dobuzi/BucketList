@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D78984F25557940005844A8 /* MKPointAnnotation-Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D78984E25557940005844A8 /* MKPointAnnotation-Codable.swift */; };
+		4DC137EC255506FD00D9FB4E /* MKPointAnnotaion-ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC137EB255506FD00D9FB4E /* MKPointAnnotaion-ObservableObject.swift */; };
+		4DC137F02555077900D9FB4E /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC137EF2555077900D9FB4E /* EditView.swift */; };
+		4DC137F325550C3E00D9FB4E /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC137F225550C3E00D9FB4E /* Result.swift */; };
 		4DC773FF25525D6B00C7F19F /* BucketListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC773FE25525D6B00C7F19F /* BucketListApp.swift */; };
 		4DC7740125525D6B00C7F19F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC7740025525D6B00C7F19F /* ContentView.swift */; };
 		4DC7740325525D6D00C7F19F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DC7740225525D6D00C7F19F /* Assets.xcassets */; };
 		4DC7740625525D6D00C7F19F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DC7740525525D6D00C7F19F /* Preview Assets.xcassets */; };
 		4DC7740F255268D000C7F19F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC7740E255268D000C7F19F /* MapView.swift */; };
+		4DD841052556916400963B82 /* AddButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD841042556916400963B82 /* AddButtonView.swift */; };
+		4DD84108255695D000963B82 /* UnlockButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD84107255695D000963B82 /* UnlockButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D78984E25557940005844A8 /* MKPointAnnotation-Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKPointAnnotation-Codable.swift"; sourceTree = "<group>"; };
+		4DC137EB255506FD00D9FB4E /* MKPointAnnotaion-ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKPointAnnotaion-ObservableObject.swift"; sourceTree = "<group>"; };
+		4DC137EF2555077900D9FB4E /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		4DC137F225550C3E00D9FB4E /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		4DC773FB25525D6B00C7F19F /* BucketList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BucketList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DC773FE25525D6B00C7F19F /* BucketListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListApp.swift; sourceTree = "<group>"; };
 		4DC7740025525D6B00C7F19F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -22,6 +32,8 @@
 		4DC7740525525D6D00C7F19F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4DC7740725525D6D00C7F19F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DC7740E255268D000C7F19F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		4DD841042556916400963B82 /* AddButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddButtonView.swift; sourceTree = "<group>"; };
+		4DD84107255695D000963B82 /* UnlockButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnlockButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +47,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4DC137EA255506E700D9FB4E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4DC137EB255506FD00D9FB4E /* MKPointAnnotaion-ObservableObject.swift */,
+				4DC137F225550C3E00D9FB4E /* Result.swift */,
+				4D78984E25557940005844A8 /* MKPointAnnotation-Codable.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		4DC773F225525D6B00C7F19F = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +76,7 @@
 		4DC773FD25525D6B00C7F19F /* BucketList */ = {
 			isa = PBXGroup;
 			children = (
+				4DC137EA255506E700D9FB4E /* Model */,
 				4DC7741125526B3900C7F19F /* View */,
 				4DC773FE25525D6B00C7F19F /* BucketListApp.swift */,
 				4DC7740225525D6D00C7F19F /* Assets.xcassets */,
@@ -76,6 +99,9 @@
 			children = (
 				4DC7740025525D6B00C7F19F /* ContentView.swift */,
 				4DC7740E255268D000C7F19F /* MapView.swift */,
+				4DC137EF2555077900D9FB4E /* EditView.swift */,
+				4DD841042556916400963B82 /* AddButtonView.swift */,
+				4DD84107255695D000963B82 /* UnlockButtonView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -149,8 +175,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D78984F25557940005844A8 /* MKPointAnnotation-Codable.swift in Sources */,
+				4DC137F325550C3E00D9FB4E /* Result.swift in Sources */,
+				4DC137EC255506FD00D9FB4E /* MKPointAnnotaion-ObservableObject.swift in Sources */,
+				4DC137F02555077900D9FB4E /* EditView.swift in Sources */,
 				4DC7740125525D6B00C7F19F /* ContentView.swift in Sources */,
 				4DC7740F255268D000C7F19F /* MapView.swift in Sources */,
+				4DD841052556916400963B82 /* AddButtonView.swift in Sources */,
+				4DD84108255695D000963B82 /* UnlockButtonView.swift in Sources */,
 				4DC773FF25525D6B00C7F19F /* BucketListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
